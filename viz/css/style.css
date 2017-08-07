@@ -1,0 +1,187 @@
+body{
+    font-family: arial, sans-serif;
+}
+
+.box{
+    width: 1em;
+    height: 1em;
+    /* background-color: white; */
+    /* border-left: 1px solid #ebebeb; */
+    float: left;
+    /* box-sizing: border-box; */
+    /* margin: 1px; */
+    /* border-radius: 50%; */
+}
+
+
+.card:hover{
+    /* background-color: aliceblue; */
+    cursor: pointer;
+}
+
+.footnote{
+    color: gray;
+    text-align: right;
+    font-size: 12px;
+    padding-right:12px;
+}
+
+.behind-math,
+.behind-ela{
+    background-color: lightsalmon;
+}
+
+.ahead-math,
+.ahead-ela{
+    background-color: lightskyblue;
+}
+
+.ahead-ela.behind-ela,
+.ahead-math.behind-math{
+    background-color:purple;
+}
+
+.clear-both{
+    clear: both;
+}
+
+.bar-container{
+    width: 50px;
+    height: 1em;
+    background-color: #ebebeb;
+    float:left;
+    border: 1px solid gray;
+    margin-right: 2px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.bar{
+    /* box-shadow: 0px 0px 5px black; */
+    height: 50%;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #555;
+    border: 1px solid #ebebeb;
+}
+
+/* .ela{ */
+/*     background-color: lightskyblue; */
+/* } */
+
+/* .math{ */
+/*     background-color: gold; */
+/* } */
+
+.heading{
+}
+
+/* .box.ela{ */
+/*     background-color: white; */
+/* } */
+/* .box.math{ */
+/*     background-color: white; */
+/* } */
+
+.box.behind,
+.behind{
+    color: tomato;
+}
+
+.box.ahead,
+.ahead{
+    color: green;
+}
+
+.card{
+    box-sizing: border-box;
+    
+    border: 1px solid gray;
+    margin: 2px;
+    border-radius: 3px;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.card-heading{
+    /* background-color: #ebebeb; */
+    /* border-bottom: 1px solid lightgray; */
+    padding: 3px;
+}
+.card-heading:hover{
+    background-color: aliceblue;
+}
+
+
+.card-heading h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-heading small{
+    color: gray;
+    margin-left: 2em;
+}
+
+.card-body{
+    border-top: 1px solid lightgray;
+    padding-left: 2em;
+}
+
+table.bullets tbody th{
+    /* text-align: right; */
+}
+
+table.bullets{
+    width: 100%;
+    background-color: white;
+    display:table;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+    font-size:14px;
+}
+
+table thead th{
+    border-bottom: 1px solid gray;
+}
+
+table, td{
+    margin-top:14px;
+    margin-bottom:10px;
+    /* border: 1px solid lightgray; */
+}
+
+td{
+    padding:10px;;
+}
+
+tr:nth-child(even){
+    background-color: #ebebeb;
+}
+
+h3.headline{
+    margin: 0px;
+}
+
+.explainer, .legend{
+    color: gray;
+    font-size: 14px;
+}
+
+input{
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 18px;;
+    border: 1px solid lightgray;
+    font-size:18px;
+    text-align:center;
+    margin-top: 10px;    
+    
+}
+
+.sourceline{
+    text-transform:uppercase;
+    border-top: 1px solid lightgray;
+    margin-top: 3px;
+}
